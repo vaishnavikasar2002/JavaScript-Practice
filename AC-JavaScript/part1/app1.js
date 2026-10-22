@@ -9,7 +9,7 @@ let c = true;
 console.log(typeof c);
 
 let d = -10;
-console.log (typeof d);
+console.log (typeof d); //positive , negative , floating all typeof same as a number
 
 // ---------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -30,6 +30,15 @@ console.log("div of e and f is: " + div);
 //operators precendence 
 let x = 5 + 3 * 2; // 5 + 6 = 11
 console.log("value of x is: " + x);
+
+let m = (2 + 1 ) * 3; // 3 * 3 = 9
+console.log("value of x is: " + m);
+
+let n = 3 / 1 + 2 ** 2; // 3 / 1 + 4 // 3 + 4 = 7
+console.log("value of x is: " + n);
+
+let j = 4 + 1 * 6 / 2; //  4 +  6 / 2 // 3 + 4 = 7
+console.log("value of x is: " + j);
 
 // ---------------------------------------------------------------------------------------------------------------------------------------------------
 
