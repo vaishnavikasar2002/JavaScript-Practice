@@ -35,6 +35,9 @@ let msg1 = "   vaishnavi";
 let newMsg = msg1.trim().toUpperCase();
 console.log(newMsg);
 
+let om = "Aaipappa   ";
+console.log(om.toLowerCase().trim().indexOf("p"));
+
 // ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 //slice method
@@ -194,7 +197,7 @@ let color = ["pink", "blue", "yellow", "orange", "green", "violet"];
 console.log(color.sort());
 
 let seq = [2, 66, 667, 44, 33];
-console.log(seq.sort());
+console.log(seq.sort());//number ch string madhe convert hota mg te sort karta 
 
 let char = ["a", "n", "k", "r", "b"];
 console.log(char.sort());
