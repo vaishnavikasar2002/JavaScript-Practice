@@ -56,7 +56,7 @@ for (let i = 5; i <= 50; i = i + 5) {
 
 //Qs 2
 // let p = prompt("write your number"); //prompt ne string madhe value ghetli
-// p = parseInt(p); //interger madhe convert kela
+// p = parseInt(p); //prompt he 1 string aste mg interger madhe convert kela
 // for ( let i=p; i<=p*10; i=i+p){
 //     console.log(i);
 // }
@@ -64,6 +64,7 @@ for (let i = 5; i <= 50; i = i + 5) {
 // -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 //nested loop
+// que 1
 for (let i = 1; i <= 5; i++) {
   console.log(`outer loop ${i}`);
   for (let j = 1; j <= 3; j++) {
@@ -177,7 +178,7 @@ let student = [
 ];
 for (let i = 0; i < student.length; i++) {
   console.log(`info of student #${i}`);
-  for (let j = 0; j <= student[i].length; j++) {
+  for (let j = 0; j < student[i].length; j++) {
     console.log(student[i][j]);
   }
 }
