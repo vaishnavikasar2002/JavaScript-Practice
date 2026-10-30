@@ -51,7 +51,7 @@ const obj = {
     undefined:"v"
 };
 console.log(obj);
-console.log(obj[1]); //output a ======> 1 ha index /num nhi ye js ne tyala bracket madhe string madhe convert kela   so an null,undefine pn string madhe convert kela ye
+console.log(obj[1]); //output a ======>obj madhe 1 ha index /num nhi ye js ne tyala bracket madhe string madhe convert kela   so an null,undefine pn string madhe convert kela ye
 console.log(obj[true]); //f
 
 // ---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -73,7 +73,7 @@ console.log(student1);
 console.log(delete student1.gender);//true
 console.log(student1);
 
-// ---------------------------------------------------------------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------------------
 
 //nested object
 const classInfo = {
